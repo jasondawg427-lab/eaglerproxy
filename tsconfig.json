@@ -3,6 +3,7 @@
     "target": "ES2022",
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
+    "outDir": "build",
     "strict": false,
     "strictNullChecks": false,
     "noImplicitAny": false,
