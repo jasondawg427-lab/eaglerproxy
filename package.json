@@ -1,12 +1,11 @@
 {
   "name": "eaglerproxy",
   "version": "1.0.0",
-  "description": "A flexible, easy expandable EaglercraftX 1.8.9 proxy written in TypeScript.",
-  "main": "launcher.js",
+  "description": "A flexible, easy expandable EaglercraftX 1.8.9 proxy.",
+  "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "build": "tsc",
-    "start": "node launcher.js"
+    "start": "node --loader ts-node/esm src/index.ts"
   },
   "dependencies": {
     "@thi.ng/leb128": "3.0.5",
@@ -28,6 +27,7 @@
     "@types/semver": "7.3.13",
     "@types/sharp": "0.31.1",
     "@types/ws": "8.5.4",
+    "ts-node": "^10.9.2",
     "typescript": "~5.8.3"
   },
   "overrides": {
