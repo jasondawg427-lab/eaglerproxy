@@ -4,6 +4,7 @@
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "outDir": "build",
+    "rootDir": ".",
     "strict": false,
     "strictNullChecks": false,
     "noImplicitAny": false,
