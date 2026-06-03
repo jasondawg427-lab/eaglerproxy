@@ -4,7 +4,6 @@
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "outDir": "build",
-    "rootDir": ".",
     "strict": false,
     "strictNullChecks": false,
     "noImplicitAny": false,
@@ -13,7 +12,8 @@
     "allowSyntheticDefaultImports": true
   },
   "include": [
-    "src/**/*"
+    "src/**/*",
+    "launcher.js"
   ],
   "exclude": [
     "src/plugins/**/*"
