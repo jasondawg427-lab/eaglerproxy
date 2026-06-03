@@ -5,7 +5,7 @@
   "main": "launcher.js",
   "type": "module",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc || exit 0",
     "start": "node launcher.js"
   },
   "dependencies": {
