@@ -3,12 +3,6 @@
     "target": "ES2022",
     "module": "CommonJS",
     "moduleResolution": "node10",
-    "ignoreDeprecations": "6.0",
-    "strict": false,
-    "skipLibCheck": true,
-    "esModuleInterop": true
-  },
-  "include": [
-    "src/**/*"
-  ]
+    "ignoreDeprecations": "6.0"
+  }
 }
