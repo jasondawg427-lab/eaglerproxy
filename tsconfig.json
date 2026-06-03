@@ -3,19 +3,15 @@
     "target": "ES2022",
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-    "outDir": "build",
-    "strict": false,
-    "strictNullChecks": false,
-    "noImplicitAny": false,
-    "skipLibCheck": true,
     "esModuleInterop": true,
+    "skipLibCheck": true,
     "allowSyntheticDefaultImports": true
   },
+  "ts-node": {
+    "esm": true,
+    "transpileOnly": true
+  },
   "include": [
-    "src/**/*",
-    "launcher.js"
-  ],
-  "exclude": [
-    "src/plugins/**/*"
+    "src/**/*"
   ]
 }
