@@ -34,3 +34,7 @@
     "axios": "^1.8.2"
   }
 }
+  "scripts": {
+    "build": "tsc",
+    "start": "node launcher.js"
+  },
