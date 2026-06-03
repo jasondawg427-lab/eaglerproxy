@@ -5,7 +5,7 @@
   "main": "launcher.js",
   "type": "module",
   "scripts": {
-    "build": "tsc || exit 0",
+    "build": "tsc",
     "start": "node launcher.js"
   },
   "dependencies": {
@@ -34,7 +34,3 @@
     "axios": "^1.8.2"
   }
 }
-  "scripts": {
-    "build": "tsc",
-    "start": "node launcher.js"
-  },
