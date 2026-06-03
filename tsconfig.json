@@ -1,18 +1,15 @@
 {
-  "name": "eaglerproxy",
-  "version": "1.0.0",
-  "description": "Eaglercraft 1.8.8 WebSocket Proxy",
-  "main": "dist/index.js",
-  "scripts": {
-    "build": "tsc",
-    "start": "node dist/index.js"
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "strict": false,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true
   },
-  "dependencies": {
-    "ws": "^8.13.0"
-  },
-  "devDependencies": {
-    "@types/node": "^20.0.0",
-    "@types/ws": "^8.5.0",
-    "typescript": "~5.8.3"
-  }
+  "include": [
+    "src/**/*"
+  ]
 }
