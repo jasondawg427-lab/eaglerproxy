@@ -22,13 +22,11 @@ export const config: Config = {
         skinCachePruneInterval: 10 * 60 * 1000,
       },
     },
-    motd: true
-      ? "FORWARD" // "FORWARD" regularly polls the server for the MOTD
-      : {
-          iconURL: "motd.png", // must be a valid file path
-          l1: "yes",
-          l2: "no",
-        }, // providing an object as such will allow you to supply your own MOTD
+   motd: {
+  iconURL: "motd.png",
+  l1: "My Aternos Proxy Server",
+  l2: "1.8.8 Live Connection"
+},
     ratelimits: {
       lockout: 10,
       limits: {
